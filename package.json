@@ -1,0 +1,22 @@
+{
+  "name": "emailreport",
+  "version": "1.0.0",
+  "description": "envio de email de alterações maplog",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diego Reis",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "consign": "^0.1.6",
+    "express": "^4.15.3",
+    "node-schedule": "^1.2.3",
+    "nodemailer": "^4.0.1",
+    "nodemon": "^1.11.0",
+    "seriate": "^0.9.0",
+    "string-builder": "^0.1.4",
+    "stringbuilder": "0.0.11"
+  }
+}
