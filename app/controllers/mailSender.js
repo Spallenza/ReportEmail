@@ -13,6 +13,7 @@ module.exports.mailSender = function (body,app, res) {
         }
     });
 
+
     // Após configurar o transporte chegou a hora de criar um e-mail
     // para enviarmos, para isso basta criar um objeto com algumas configurações
     var email = {

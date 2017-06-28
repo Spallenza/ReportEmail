@@ -14,7 +14,5 @@ app.listen(3001, function () {
         console.log('Time for tea!');
     });
 
-    // execute(app);
-
 });
 

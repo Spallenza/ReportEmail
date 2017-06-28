@@ -7,6 +7,7 @@ module.exports.enviaEmail = function (app, res) {
     //Model que exuca a query do banco de dados.
     var notasModel = new app.app.models.MaplogDAO(sqlMaplog);
 
+
     console.log("Conectando com a base Maplog");
     notasModel.getUpdateHistory(function (results) {
 
